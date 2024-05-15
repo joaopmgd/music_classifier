@@ -1,0 +1,8 @@
+{
+    "music_path_directory": "/Users/{user}/Music/Musics/",
+    "music_name_origin": "METADATA",
+    "save_music_per_artist": true,
+    "save_music_per_genre": true,
+    "print_artist_popularity": true,
+    "print_error_logs": true
+}
