@@ -3295,6 +3295,18 @@
         ]
     },
     {
+        "artist": "REBRN",
+        "genres": [
+            "Afro House"
+        ]
+    },
+    {
+        "artist": "DANOR",
+        "genres": [
+            "Afro House"
+        ]
+    },
+    {
         "artist": "Victor Alc",
         "genres": [
             "Afro House"
@@ -3710,10 +3722,108 @@
         ]
     },
     {
+        "artist": "Raxon",
+        "genres": [
+            "Tech House",
+            "Deep House"
+        ]
+    },
+    {
+        "artist": "Deetron",
+        "genres": [
+            "Deep House"
+        ]
+    },
+    {
+        "artist": "Dixon",
+        "genres": [
+            "Tech House"
+        ]
+    },
+    {
+        "artist": "Ede",
+        "genres": [
+            "Tech House"
+        ]
+    },
+    {
+        "artist": "The Neighbors",
+        "genres": [
+            "Tech House"
+        ]
+    },
+    {
+        "artist": "Mr. G",
+        "genres": [
+            "Techno"
+        ]
+    },
+    {
+        "artist": "Jonathan Kaspar",
+        "genres": [
+            "Techno"
+        ]
+    },
+    {
+        "artist": "Jimi Jules",
+        "genres": [
+            "Techno"
+        ]
+    },
+    {
+        "artist": "Sven Väth",
+        "genres": [
+            "Techno"
+        ]
+    },
+    {
+        "artist": "Gabry Ponte",
+        "genres": [
+            "Psytrance"
+        ]
+    },
+    {
+        "artist": "DJ Daddy Trance",
+        "genres": [
+            "Trance"
+        ]
+    },
+    {
+        "artist": "Marlon Hoffstadt",
+        "genres": [
+            "Trance"
+        ]
+    },
+    {
+        "artist": "DJ Merlon",
+        "genres": [
+            "Afro House",
+            "Progressive House"
+        ]
+    },
+    {
         "artist": "Skatman",
         "genres": [
             "Electronic",
             "Techno"
+        ]
+    },
+    {
+        "artist": "JSTJR",
+        "genres": [
+            "Electronic"
+        ]
+    },
+    {
+        "artist": "Maddix",
+        "genres": [
+            "Hard Techno"
+        ]
+    },
+    {
+        "artist": "Alt8",
+        "genres": [
+            "Hard Techno"
         ]
     }
 ]
