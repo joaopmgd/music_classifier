@@ -281,6 +281,7 @@ func getMusicDataFromMetadata() (MusicList, error) {
 // PrintArtistPopularity prints the artist popularity
 func PrintArtistPopularity() {
 	artistPopularityList := artistPopularityMap.ToList()
+	sort.Sort(artistPopularityList)
 	for _, artist := range artistPopularityList {
 		fmt.Printf("%s: %d\n", artist.Artist, artist.Count)
 	}
