@@ -64,21 +64,10 @@ func (m Music) SaveMusicPerGenre() error {
 			return err
 		}
 		genreFilePath := fmt.Sprintf("%s/%s - %s.mp3", genreDirectory, m.OrderedArtistNames, m.Title)
-		err = system.CopyFile(m.Path, genreFilePath)
+		err = system.LinkFile(m.Path, genreFilePath)
 		if err != nil {
 			return err
 		}
-		// Set the genre in the music file
-		musicTagFile, err := taglib.Read(genreFilePath)
-		if err != nil {
-			return err
-		}
-		musicTagFile.SetGenre(genre)
-		err = musicTagFile.Save()
-		if err != nil {
-			return err
-		}
-		musicTagFile.Close()
 	}
 	return nil
 }
